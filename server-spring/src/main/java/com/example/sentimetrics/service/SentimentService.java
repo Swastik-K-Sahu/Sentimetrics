@@ -2,7 +2,6 @@ package com.example.sentiment.service;
 
 import com.example.sentiment.model.SentimentResult;
 import com.example.sentiment.repository.SentimentRepository;
-import com.example.sentiment.util.SentimentAnalyzer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

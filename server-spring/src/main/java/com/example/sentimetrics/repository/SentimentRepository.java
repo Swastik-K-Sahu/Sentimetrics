@@ -1,4 +1,4 @@
-package com.example.sentiment.repository;
+package com.example.sentimetrics.repository;
 
 import com.example.sentiment.model.SentimentResult;
 import org.springframework.data.mongodb.repository.MongoRepository;

@@ -1,4 +1,4 @@
-package com.example.sentiment.controller;
+package com.example.sentimetrics.controller;
 
 import com.example.sentiment.model.SentimentResult;
 import com.example.sentiment.service.SentimentService;
