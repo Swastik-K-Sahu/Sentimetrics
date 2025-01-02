@@ -22,11 +22,11 @@ public class SentimentController {
         return sentimentService.analyzeAndSaveSentiment(text);
     }
 
-    @PostMapping("/upload")
-    public SentimentResult analyzeFile(@RequestParam("file") MultipartFile file) throws IOException {
-        String content = new String(file.getBytes());
-        return sentimentService.analyzeAndSaveSentiment(content);
-    }
+//    @PostMapping("/upload")
+//    public SentimentResult analyzeFile(@RequestParam("file") MultipartFile file) throws IOException {
+//        String content = new String(file.getBytes());
+//        return sentimentService.analyzeAndSaveSentiment(content);
+//    }
 
     @GetMapping("/history")
     public List<SentimentResult> getSentimentHistory() {
